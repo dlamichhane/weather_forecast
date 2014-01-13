@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, LInnanmaaWeatherActivity!</string>
+    <string name="app_name">Linnanmaa Weather</string>
+    <string name="linnanmaa_label">Weather in Linnanmaa</string>
+    <string name="temperature_label">Loading...</string>
+    <string name="refresh_label">Refresh</string>
+</resources>

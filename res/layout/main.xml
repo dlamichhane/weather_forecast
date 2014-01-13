@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    				android:orientation="vertical"
+    				android:layout_width="fill_parent"
+    				android:layout_height="fill_parent">
+    
+    <TextView android:layout_height="wrap_content" 
+			  android:text="@string/linnanmaa_label" 
+			  android:layout_width="fill_parent" 
+			  android:gravity="center" 
+			  android:paddingTop="24dp" 
+			  android:textSize="24dp" 
+			  android:id="@+id/linnanmaa_label">
+        
+    </TextView>
+    <TextView android:layout_height="wrap_content" 
+        	  android:layout_width="fill_parent" 
+        	  android:layout_weight="1" 
+        	  android:gravity="center" 
+        	  android:textSize="48dp" 
+        	  android:id="@+id/temperature_label" 
+        	  android:text="@string/temperature_label" 
+        	  android:textColor="@android:color/white">
+        
+    </TextView>
+    <Button android:layout_width="fill_parent" 
+        	android:layout_height="wrap_content" 
+        	android:id="@+id/refresh_button" 
+        	android:text="@string/refresh_label" 
+        	android:onClick="onRefreshButtonClick">
+        
+    </Button>
+</LinearLayout>
